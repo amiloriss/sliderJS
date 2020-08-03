@@ -1,0 +1,67 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+}
+
+body {
+  min-width: 720px;
+}
+
+.title {
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 40px;
+  text-shadow: 3px -3px 2px silver;
+  letter-spacing: 5px;
+}
+
+.outside-wrapper {
+  width: 700px;
+  height: 400px;
+  overflow: hidden;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.outside-wrapper .inside-wrapper {
+  height: 100%;
+  position: relative;
+  right: 0;
+  transition: all 0.5s;
+}
+.outside-wrapper .inside-wrapper > * {
+  height: 100%;
+  width: 700px;
+  float: left;
+}
+
+nav {
+  margin: 20px auto;
+  width: 200px;
+}
+nav > * {
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #b8b8b8;
+  background-color: #000;
+  padding: 10px;
+  letter-spacing: 2px;
+}
+nav .count-page {
+  width: 91%;
+  background-color: #fff;
+  text-align: center;
+}
+nav .count-page #number {
+  color: #000;
+  font-weight: 600;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:focus {
+  outline: none;
+}
